@@ -3,9 +3,8 @@ package polls; // 답항 입력 묶음
 import java.util.Scanner;
 
 public class PollScanners { // class scanner
-    public int second = 0;
-
-    public static void main(String[] args) {
+    public int scanner(int first) {
+        int second = 0;
         try {
                 Scanner myObj = new Scanner(System.in);
                 System.out.println(">이름을 입력하세요"); // 이름 입력요청
@@ -37,5 +36,6 @@ public class PollScanners { // class scanner
                 // TODO: handle exception
             }
             // return 0;
-        }
+        return second;
     }
+}
