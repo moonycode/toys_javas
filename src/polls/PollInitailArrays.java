@@ -1,3 +1,5 @@
+package polls;
+
 public class PollInitailArrays {
     public String[][] init() {  //초기화 함수 이름 : init()
        try {
