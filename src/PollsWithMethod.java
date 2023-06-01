@@ -19,8 +19,15 @@ public class PollsWithMethod {
             
             // 설문 출력 & 답안 입출력 & 범위내의 숫자를 입력 (입출력)
             
+            PollScanners pollScanners = new PollScanners();
+            int pollscan = pollScanners.();
+            System.out.println(pollscan);
 
             // 입력값을 프린트아웃 (통계)
+
+            PollStatistics pollStatistics = new PollStatistics();
+            int stat = pollStatistics.statistic();
+            System.out.println(stat);
 
         } catch (Exception e) {
             // TODO: handle exception

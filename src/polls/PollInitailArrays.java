@@ -2,8 +2,7 @@ package polls;
 
 public class PollInitailArrays {
     public String[][] init() {  //초기화 함수 이름 : init()
-       try {
-        String[][] polls =
+        String[][] pollsinitial =
         {   
             {"1. 교수는 수업 전 강의 목표를 명확히 제시하였습니까?"}, 
             {"(1)전혀 아니다.", "(2)아니다.", "(3)그렇다. ", "(4)매우 그렇다."},
@@ -14,9 +13,6 @@ public class PollInitailArrays {
             {"4. 강의 진행 속도는 적절하였는가?"},
             {"(1)전혀 아니다.", "(2)아니다.", "(3)그렇다. ", "(4)매우 그렇다."},
         };
-       } catch (Exception e) {
-        // TODO: handle exception
-       }   
-       return polls;
+        return pollsinitial;
     }
 }
