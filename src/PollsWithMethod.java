@@ -7,7 +7,7 @@ public class PollsWithMethod {
     public static void main(String[] args) {
         try {
             // 객체 생성
-            Scanner myObj = new Scanner(System.in);
+        
             // 변수 선언 (초기화)
             
             String answer = "";
@@ -20,7 +20,7 @@ public class PollsWithMethod {
             // 설문 출력 & 답안 입출력 & 범위내의 숫자를 입력 (입출력)
             
             PollScanners pollScanners = new PollScanners();
-            int pollscan = pollScanners.();
+            int pollscan = pollScanners.scanner();
             System.out.println(pollscan);
 
             // 입력값을 프린트아웃 (통계)

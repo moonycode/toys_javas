@@ -3,7 +3,7 @@ package polls; // 답항 입력 묶음
 import java.util.Scanner;
 
 public class PollScanners { // class scanner
-    public int scanner(int first) {
+    public int scanner() {
         int second = 0;
         try {
                 Scanner myObj = new Scanner(System.in);
